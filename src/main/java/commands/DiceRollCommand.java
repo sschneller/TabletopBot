@@ -18,12 +18,12 @@ public class DiceRollCommand extends Command{
         this.waiter = waiter;
         this.name = "diceroll";
         this.aliases = new String[]{"dice","roll"};
-        this.help = "Roll the die, fool!";
+        this.help = "!diceroll <number> - Roll a randomly generated number out of <number>\n    Aliases - !dice <number>, !roll <number>";
     }
 
     protected void execute(CommandEvent event) {
         if(event.getArgs().isEmpty())
-            event.reply("Hey dipshit! This is the dice command. Give me a number!");
+            event.reply("This is the dice command. Give me a number!");
         else {
             String[] items = event.getArgs().split("\\s+");
             if (items.length > 1)

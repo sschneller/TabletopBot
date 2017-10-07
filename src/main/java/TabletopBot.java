@@ -3,6 +3,7 @@ import com.jagrosh.jdautilities.commandclient.examples.AboutCommand;
 import com.jagrosh.jdautilities.commandclient.examples.PingCommand;
 import com.jagrosh.jdautilities.commandclient.examples.ShutdownCommand;
 import com.jagrosh.jdautilities.waiter.EventWaiter;
+import commands.DiceRollCommand;
 import net.dv8tion.jda.core.*;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
@@ -56,7 +57,11 @@ public class TabletopBot{
                 new PingCommand(),
 
                 // command to shut off the bot
-                new ShutdownCommand());
+                new ShutdownCommand(),
+
+                //dice roll command
+                new DiceRollCommand(waiter)
+        );
 
         // start getting a bot account set up
         new JDABuilder(AccountType.BOT)
