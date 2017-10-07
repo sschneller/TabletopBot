@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/../../out/test/classes"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$/../..">
+		<testFolder url="file://$MODULE_DIR$/../../src/test/java"/>
+		<testFolder url="file://$MODULE_DIR$/../../src/test/resources"/>
+		<excludeFolder url="file://$MODULE_DIR$/../../.gradle"/>
+		<excludeFolder url="file://$MODULE_DIR$/../../build"/>
+		<excludeFolder url="file://$MODULE_DIR$/../../out"/>
+	</contentEntry>
+	<lib name="Gradle: com.jagrosh:JDA-Utilities:1.8" scope="PROVIDED"/>
+	<lib name="Gradle: net.dv8tion:JDA:3.3.1_286" scope="PROVIDED"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver:3.5.0" scope="PROVIDED"/>
+	<lib name="Gradle: com.google.code.findbugs:jsr305:3.0.2" scope="PROVIDED"/>
+	<lib name="Gradle: org.slf4j:slf4j-api:1.7.25" scope="PROVIDED"/>
+	<lib name="Gradle: org.apache.commons:commons-collections4:4.1" scope="PROVIDED"/>
+	<lib name="Gradle: org.json:json:20160810" scope="PROVIDED"/>
+	<lib name="Gradle: net.sf.trove4j:trove4j:3.0.3" scope="PROVIDED"/>
+	<lib name="Gradle: net.java.dev.jna:jna:4.4.0" scope="PROVIDED"/>
+	<lib name="Gradle: com.neovisionaries:nv-websocket-client:2.2" scope="PROVIDED"/>
+	<lib name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" scope="PROVIDED"/>
+	<lib name="Gradle: org.mongodb:bson:3.5.0" scope="PROVIDED"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver-core:3.5.0" scope="PROVIDED"/>
+	<lib name="Gradle: com.squareup.okio:okio:1.13.0" scope="PROVIDED"/>
+	<lib name="Gradle: com.jagrosh:JDA-Utilities:1.8" scope="RUNTIME"/>
+	<lib name="Gradle: net.dv8tion:JDA:3.3.1_286" scope="RUNTIME"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver:3.5.0" scope="RUNTIME"/>
+	<lib name="Gradle: com.google.code.findbugs:jsr305:3.0.2" scope="RUNTIME"/>
+	<lib name="Gradle: org.slf4j:slf4j-api:1.7.25" scope="RUNTIME"/>
+	<lib name="Gradle: org.apache.commons:commons-collections4:4.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.json:json:20160810" scope="RUNTIME"/>
+	<lib name="Gradle: net.sf.trove4j:trove4j:3.0.3" scope="RUNTIME"/>
+	<lib name="Gradle: net.java.dev.jna:jna:4.4.0" scope="RUNTIME"/>
+	<lib name="Gradle: com.neovisionaries:nv-websocket-client:2.2" scope="RUNTIME"/>
+	<lib name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" scope="RUNTIME"/>
+	<lib name="Gradle: org.mongodb:bson:3.5.0" scope="RUNTIME"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver-core:3.5.0" scope="RUNTIME"/>
+	<lib name="Gradle: com.squareup.okio:okio:1.13.0" scope="RUNTIME"/>
+	<lib name="Gradle: com.jagrosh:JDA-Utilities:1.8" scope="TEST"/>
+	<lib name="Gradle: net.dv8tion:JDA:3.3.1_286" scope="TEST"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver:3.5.0" scope="TEST"/>
+	<lib name="Gradle: com.google.code.findbugs:jsr305:3.0.2" scope="TEST"/>
+	<lib name="Gradle: org.slf4j:slf4j-api:1.7.25" scope="TEST"/>
+	<lib name="Gradle: org.apache.commons:commons-collections4:4.1" scope="TEST"/>
+	<lib name="Gradle: org.json:json:20160810" scope="TEST"/>
+	<lib name="Gradle: net.sf.trove4j:trove4j:3.0.3" scope="TEST"/>
+	<lib name="Gradle: net.java.dev.jna:jna:4.4.0" scope="TEST"/>
+	<lib name="Gradle: com.neovisionaries:nv-websocket-client:2.2" scope="TEST"/>
+	<lib name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" scope="TEST"/>
+	<lib name="Gradle: org.mongodb:bson:3.5.0" scope="TEST"/>
+	<lib name="Gradle: org.mongodb:mongodb-driver-core:3.5.0" scope="TEST"/>
+	<lib name="Gradle: com.squareup.okio:okio:1.13.0" scope="TEST"/>
+	<levels>
+		<level name="Gradle: com.jagrosh:JDA-Utilities:1.8" value="project"/>
+		<level name="Gradle: net.dv8tion:JDA:3.3.1_286" value="project"/>
+		<level name="Gradle: org.mongodb:mongodb-driver:3.5.0" value="project"/>
+		<level name="Gradle: com.google.code.findbugs:jsr305:3.0.2" value="project"/>
+		<level name="Gradle: org.slf4j:slf4j-api:1.7.25" value="project"/>
+		<level name="Gradle: org.apache.commons:commons-collections4:4.1" value="project"/>
+		<level name="Gradle: org.json:json:20160810" value="project"/>
+		<level name="Gradle: net.sf.trove4j:trove4j:3.0.3" value="project"/>
+		<level name="Gradle: net.java.dev.jna:jna:4.4.0" value="project"/>
+		<level name="Gradle: com.neovisionaries:nv-websocket-client:2.2" value="project"/>
+		<level name="Gradle: com.squareup.okhttp3:okhttp:3.8.1" value="project"/>
+		<level name="Gradle: org.mongodb:bson:3.5.0" value="project"/>
+		<level name="Gradle: org.mongodb:mongodb-driver-core:3.5.0" value="project"/>
+		<level name="Gradle: com.squareup.okio:okio:1.13.0" value="project"/>
+	</levels>
+</component>
