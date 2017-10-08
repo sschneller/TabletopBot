@@ -1,5 +1,6 @@
 import com.jagrosh.jdautilities.commandclient.CommandClientBuilder;
 import com.jagrosh.jdautilities.waiter.EventWaiter;
+import commands.EntityCommand;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.OnlineStatus;
@@ -32,6 +33,8 @@ public class TabletopBot {
 
         // sets the bot prefix
         client.setPrefix("!");
+
+        client.addCommand(new EntityCommand());
 
         // start getting a bot account set up
         new JDABuilder(AccountType.BOT)

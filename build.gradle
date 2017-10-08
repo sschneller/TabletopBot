@@ -19,6 +19,7 @@ dependencies {
     compile "com.jagrosh:JDA-Utilities:1.8"
     compile "net.dv8tion:JDA:$jdaVersion"
     compile "org.mongodb:mongodb-driver:3.5.0"
+    compile 'com.google.code.gson:gson:2.8.2'
 }
 
 compileJava.options.encoding = 'UTF-8'
