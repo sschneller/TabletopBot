@@ -1,13 +1,17 @@
 import com.jagrosh.jdautilities.commandclient.CommandClientBuilder;
+import com.jagrosh.jdautilities.commandclient.examples.AboutCommand;
 import com.jagrosh.jdautilities.waiter.EventWaiter;
+import commands.CombatCommand;
 import commands.EntityCommand;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDABuilder;
 import net.dv8tion.jda.core.OnlineStatus;
+import net.dv8tion.jda.core.Permission;
 import net.dv8tion.jda.core.entities.Game;
 import net.dv8tion.jda.core.exceptions.RateLimitedException;
 
 import javax.security.auth.login.LoginException;
+import java.awt.*;
 import java.io.IOException;
 
 public class TabletopBot {
@@ -34,7 +38,12 @@ public class TabletopBot {
         // sets the bot prefix
         client.setPrefix("!");
 
+        client.addCommand(
+                new AboutCommand(Color.BLUE, "an example bot",
+                        new String[]{"Cool commands","Nice examples","Lots of fun!"},
+                        new Permission[]{Permission.ADMINISTRATOR}));
         client.addCommand(new EntityCommand());
+        client.addCommand(new CombatCommand());
 
         // start getting a bot account set up
         new JDABuilder(AccountType.BOT)
